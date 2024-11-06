@@ -1,0 +1,6 @@
+sudo apt update
+sudo apt install trivy
+trivy --version
+sudo trivy image python:3.4-alpine
+sudo trivy image --severity HIGH python:3.4-alpine
+ls
